@@ -8,7 +8,7 @@ const packageJSON = require('../package.json');
 
 async function bundleAPI() {
     const src = 'src/api/index.ts';
-    const dest = 'darkreader.js';
+    const dest = 'darkreader-bundle.js';
 
     const bundle = await rollup.rollup({
         input: src,

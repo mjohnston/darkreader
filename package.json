@@ -10,7 +10,7 @@
     "release": "npm test && node tasks/release.js",
     "test": "jest --config=tests/jest.config.js"
   },
-  "main": "darkreader.js",
+  "main": "darkreader-bundle.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/alexanderby/darkreader.git"
