@@ -2055,7 +2055,8 @@
                 !element.disabled)) &&
             !element.classList.contains('darkreader') &&
             element.media !== 'print' &&
-            !element.classList.contains('stylus'));
+            !element.classList.contains('stylus') &&
+            element.id.substr(0, 6) !== 'svelte');
     }
     var asyncQueue = createAsyncTasksQueue();
     function manageStyle(element, _a) {
